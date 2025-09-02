@@ -35,12 +35,6 @@ npm run build
 npm run preview
 ```
 
-### Available Scripts
-- **dev**: Start Vite dev server with HMR
-- **build**: Production build
-- **preview**: Preview production build locally
-- **lint**: Run ESLint on the project
-
 ### Project Structure
 ```
 src/
@@ -63,14 +57,3 @@ src/
 - Global `html { scroll-behavior: smooth }`
 - `section[id] { scroll-margin-top: 88px }` to prevent headings from being hidden by the fixed navbar (adjust if navbar height changes)
 - Buttons and links have clear focus styles and large tap targets
-
-### Customization Tips
-- Update brand assets in `src/assets/`
-- Modify section ids if you change nav labels; keep `href` and `id` aligned
-- Tweak `max-w-6xl` wrappers and responsive grids for layout needs
-
-### Deployment
-- Any static host works (Vercel, Netlify, GitHub Pages). Build with `npm run build` and deploy the `dist/` directory.
-
-### License
-Proprietary – All rights reserved. Update this section if you intend to open source.
