@@ -37,7 +37,7 @@ export function HeroSection() {
                         >
                             Start Free Trial
                         </button>
-                        <a href="#programs" className="w-full sm:w-auto px-6 py-3 rounded-lg text-white bg-green-600 hover:bg-green-500 font-semibold shadow-md transition">
+                        <a href="#programs" className="w-full sm:w-auto px-6 py-3 rounded-lg text-center text-white bg-green-600 hover:bg-green-500 font-semibold shadow-md transition">
                             Explore Programs
                         </a>
                     </div>
